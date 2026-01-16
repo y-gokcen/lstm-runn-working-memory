@@ -171,7 +171,7 @@ All code is well-commented and modular:
 
 **Author:** Yasemin Gokcen 
 **Collaborators/Advisors:** Dr. Rachel Ryskin, Dr. David Noelle
-**Affiliation:** PhD Candidate, Cognitive & Information Sciences, UC Merced  
+**Affiliation:** PhD Student, Cognitive & Information Sciences, UC Merced  
 **Contact:** ygokcen@ucmerced.edu
 
 ## References
