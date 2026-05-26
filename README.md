@@ -6,14 +6,6 @@ Comparing LSTM and RNN architectures to understand how gating mechanisms in neur
 
 This project investigates whether the difference between LSTM (with gating) and simple RNN (without gating) models captures aspects of human working memory load. By analyzing residuals between these models, we can test whether LSTM's memory mechanisms explain variance in established working memory predictors from psycholinguistics.
 
-### Research Question
-
-**Do LSTMs' gating mechanisms better capture working memory demands in human language processing compared to simple RNNs?**
-
-If yes, the residual variance (LSTM - RNN) should correlate with psycholinguistic measures of working memory load.
-
-## Technical Stack
-
 - **Language:** R
 - **Key Libraries:** `lme4`, `tidyverse`, `ggplot2`
 - **Models Compared:**
@@ -96,14 +88,6 @@ The main output is a publication-ready heatmap showing:
 - **Color:** Regression coefficient (blue = negative, red = positive)
 - **Black outline:** Statistically significant (p < 0.05, Bonferroni-corrected)
 
-## Research Implications
-
-### If LSTM residuals correlate with WM measures:
-Suggests LSTM's gating mechanisms capture human-like memory constraints
-
-### If no correlation:
-Suggests gating ≠ working memory (at least not these specific mechanisms)
-
 ## Technical Details
 
 ### Multiple Seeds
@@ -130,36 +114,6 @@ Uses the Natural Stories Corpus with:
 - Natural reading materials (stories)
 - Comprehensive linguistic annotations
 
-## Applications
-
-This methodology can be extended to:
-- Compare other model architectures (Transformer vs LSTM)
-- Test different cognitive predictors (attention, prediction error)
-- Analyze other language corpora
-- Validate computational models of cognition
-
-## Research Context
-
-This work bridges:
-- **Computational linguistics:** Neural language models
-- **Psycholinguistics:** Working memory theories (DLT, LC)
-- **Cognitive science:** Memory constraints in language processing
-- **AI interpretability:** What do model components actually learn?
-
-## Related Work
-
-- Gibson (1998, 2000): Dependency Locality Theory
-- Lewis & Vasishth (2005): ACT-R model of sentence processing
-- Shain et al. (2022): Working memory predictors in Natural Stories
-- Futrell et al. (2021): Natural Stories corpus
-
-## Future Directions
-
-- Test Transformer attention patterns vs working memory
-- Add semantic coherence measures
-- Real-time prediction of reading difficulty
-- Extend to other languages
-
 ## Code Availability
 
 All code is well-commented and modular:
@@ -173,10 +127,3 @@ All code is well-commented and modular:
 **Collaborators/Advisors:** Dr. Rachel Ryskin, Dr. David Noelle
 **Affiliation:** PhD Student, Cognitive & Information Sciences, UC Merced  
 **Contact:** ygokcen@ucmerced.edu
-
-## References
-
-- Gibson, E. (1998). Linguistic complexity: Locality of syntactic dependencies
-- Shain, C., et al. (2022). Working memory load in Natural Stories
-- Futrell, R., et al. (2021). Natural Stories corpus
-- Hochreiter & Schmidhuber (1997). Long Short-Term Memory (LSTM)
